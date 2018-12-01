@@ -42,7 +42,7 @@ RUN sudo -Hu user WINEARCH=win32 /usr/bin/wine wineboot && \
 
 ENV LANG=zh_CN.UTF-8 \
     LC_ALL=zh_CN.UTF-8 \
-    COOLQ_URL=Dockerfile
+    COOLQ_URL=http://dlsec.cqp.me/cqp-xiaoi
 
 COPY vncmain.sh /app/vncmain.sh
 COPY cq /usr/local/bin/cq
