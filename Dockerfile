@@ -42,7 +42,7 @@ RUN sudo -Hu user WINEARCH=win32 /usr/bin/wine wineboot && \
 
 ENV LANG=zh_CN.UTF-8 \
     LC_ALL=zh_CN.UTF-8 \
-    COOLQ_URL=http://dlsec.cqp.me/cqa-tuling
+    COOLQ_URL=Dockerfile
 
 COPY vncmain.sh /app/vncmain.sh
 COPY cq /usr/local/bin/cq
